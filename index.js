@@ -13,3 +13,7 @@ function increaseRankBy(n) {
   }
 }
 
+function deepestChild() {
+  const divs = document.getElementById('grnad-node').querySelectorAll('div')
+  return divs[4].innerHTML
+}
